@@ -1,0 +1,107 @@
+html{
+ scroll-behavior: smooth;
+}
+
+body {
+font-family: sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.er{
+  text-align:center;
+
+}
+
+.fg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+header img{
+  position: sticky;
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 25px;
+  right: 200px;
+  right: 0px;
+  padding: 5px;
+  display: flex;
+  position: fixed;
+  transition: background-color 0.5s ease;
+  border-radius: 50%;
+}
+
+header img:hover{
+  background-color: #888888;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+
+header img:hover::after{
+  content: url("img/6551983.jpg")
+}
+
+.butreturn{
+  width: 50px;
+  height: 50px;
+  right: 25px;
+  bottom: 25px;
+  position: fixed;
+  display: flex;
+  position: flex;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.butreturn:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.video img{
+  width:1146px;
+  height:646px;
+  position: absolute;
+}
+
+.video video{
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.video p{
+  float:right;
+  margin-right: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.video p img{
+    width:50px;
+    height:50px;
+}
+
+.H1{
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.img1{
+  margin: 100px 0 100px 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
